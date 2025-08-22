@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  width: auto;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -23,6 +24,60 @@ body {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   background-color: #1992d4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.dashboard-logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.dashboard-logo img {
+  align-self: center;
+  height: 7vh;
+  width: auto;
+}
+
+.dashboard-logo p {
+  font-size: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+}
+
+.dashboard-one,
+.dashboard-two {
+  font-size: 1.1rem;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-segment {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.dashboard-segment img {
+  align-self: center;
+  height: 30px;
+}
+
+.dashboard-segment:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dashboard-segment:active {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .menu {
