@@ -18,6 +18,66 @@ body {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   background-color: white;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.search img {
+  height: 30px;
+}
+
+.search-input {
+  background-color: #e2e8f0;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  width: 35vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-input:focus {
+  border: 1px solid #000000;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-noti {
+  height: 4vh;
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  height: 6vh;
+  aspect-ratio: 1 / 1;
+  border-radius: 30px;
+}
+
+.profile p {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .sidebar {
