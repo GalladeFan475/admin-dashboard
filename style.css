@@ -18,10 +18,10 @@ body {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   background-color: white;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px 15px 5px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .header-one {
@@ -78,6 +78,68 @@ body {
 .profile p {
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+.header-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 8%;
+}
+
+.details img {
+  height: 9.5vh;
+  aspect-ratio: 1 / 1;
+  border-radius: 50px;
+}
+
+.details-text {
+  align-self: center;
+}
+
+.details-text p {
+  margin-block: 3px;
+  font-weight: bold;
+}
+
+.details-text-greeting {
+  font-size: 0.8rem;
+}
+
+.details-text-name {
+  font-size: 1.25rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 8%;
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: #1992d4;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 25px 8px 25px;
+  box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+.buttons button:active {
+  box-shadow: none;
 }
 
 .sidebar {
