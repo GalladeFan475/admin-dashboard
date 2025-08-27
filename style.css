@@ -215,6 +215,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
+  padding-bottom: 50px;
 }
 
 .main-content {
@@ -278,12 +279,30 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 15px;
-  gap: 10px;
+  gap: 15px;
 }
 
 .announcement-list h4,
 .announcement-list p {
   margin-block: 0;
+  margin-left: 15px;
+}
+
+.announcement-list p {
+  font-size: 0.9rem;
+  color: rgb(139, 137, 137);
+}
+
+.ann {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.last {
+  border: none;
 }
 
 .trending-list {
@@ -298,8 +317,8 @@ body {
 .trend {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
-  gap: 10px;
+  margin-left: 15px;
+  gap: 15px;
 }
 
 .trend img {
@@ -309,9 +328,9 @@ body {
   align-self: center;
 }
 
-.trend p {
+.celeb p {
   margin-block: 0;
-  font: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .info-text {
