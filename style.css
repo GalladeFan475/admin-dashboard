@@ -246,6 +246,17 @@ body {
   color: #555;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.icons img {
+  height: 30px;
+  aspect-ratio: 1/1;
+}
+
 .taskbar {
   grid-column: 2 /3;
   background-color: chocolate;
